@@ -1,3 +1,25 @@
 h1 {
     color: red;
 }
+
+/*property :value*/
+
+#home-intro{
+    text-align: center;
+
+    /*border: 3px;
+    border-color: black;
+    border-style: solid;*/
+
+    border: 3px solid black;
+}
+
+#home-intro:hover{
+    background-color: burlywood;
+}
+
+#p2{
+    color: blue;
+}
+
+
