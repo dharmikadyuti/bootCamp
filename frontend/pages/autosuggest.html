@@ -20,6 +20,32 @@
             text-align: center;
             margin-top: 100px;
         }
+        .logo-first{
+            color: #7C3AED;      /* Violet */
+        }
+        /*.infinity{
+            color: #000000;     
+        }*/
+        .tagline{
+            color: #9CA3AF;      /* Light grey */
+            font-size: 22px;
+            margin-bottom: 30px;
+        } 
+        .search-box{
+            padding: 15px 15px 15px 45px;
+            border-radius: 30px;
+            width: 30%;
+        }
+        .lens{
+            position: relative;
+            /*left or right or top or bottom*/
+            left: 40px;
+        }
+        #suggestion-box{
+            /*border: 1px solid black; */
+            width:32.5%;
+            margin-left: 35%;
+        }
     </style>
 </head>
 <body>
@@ -28,9 +54,15 @@
         <span class = "right-bar">&#8226; online | &#128336; - ms</span>
     </div>
     <div class = "search-section">
-        <h1>BeingInfinity</h1>
-        <p>One million phrases. Four algorithms. Prefix Based Auto Suggest.</p>
-        <span>&#128269 <input  placeholder="Start typing to search phrases"></span> 
+        <h1><span class="logo-first">Being</span>Infinity</h1>
+        <p class="tagline">One million phrases. Four algorithms. Prefix Based Auto Suggest.</p>
+        <span>
+            <span class = "lens">&#128269;</span>
+            <input class = "search-box" placeholder="Start typing to search phrases">
+        </span> 
+        <div id = "suggestion-box">
+            <!--Suggestion Box--!>
+        </div>
     </div>
 </body>
 </html>
