@@ -1,4 +1,4 @@
-h1 {
+#home-intro h1 {
     color: red;
 }
 
@@ -64,6 +64,9 @@ img{
     width: 100%;
 }
 
+/*#card-1 {
+    text-align: center;
+}*/
 
 
 
