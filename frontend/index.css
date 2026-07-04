@@ -35,4 +35,34 @@ h1 {
     color: white;
 }
 
+#card{
+    align-items: center;
+    margin-top: 5px;
+    border: 3px solid black;
+    width: 300px;
+    height: 580px;
+    margin: 3px auto;
+}
+
+#card-img{
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin: 0px auto;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+}
+
+#action{
+  text-align: center;
+}
+
+#button{
+    width: 100%;
+}
+
+
 
